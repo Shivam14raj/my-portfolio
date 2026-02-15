@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about-me{
+   color: rgba(139, 137, 137, 0.75);
+   font-family: "Cinzel", serif !important;
+  font-size: 7.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(82, 80, 80, 0.75) !important;
+  position: absolute;
+  left: 28%;
+  top: 5%;
+}
+
+.about-me-text{
+  color: #fff;
+  font-size: 1.7rem;
+  font-family: 'Poppins'; 
+  height: 65vh;
+  width: 60vw;
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  text-justify: inter-word;
+} 
+.about-me-text span{
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: rgba(139, 137, 137, 0.75);
+  
+}
