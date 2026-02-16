@@ -110,47 +110,46 @@
   }
 }
 
-.logo-container{
-    /* background-color: red; */
-    width: 400px;
-    height: 510px;
-    position: absolute;
-    right: 0%;
-    top: 20%;
-}
 
-.logo-container .express{
-   width: 100px;
-   height: 100px;
-   object-fit: cover;
-   position: absolute;
-}
-
-.logo-container .reactimg{
-  width: 100px;
-   height: 100px;
-   object-fit: cover;
-   position: absolute;
-   top: 26%;
-   left: 12%;
+.arrow{
+  position: absolute;
+  right: 280px;
+  top: 50%;
 }
 
 
+.social-link {
+  font-family: 'Poppins';
+  color: #fff;
+  font-weight: 300;
+  width: 10vw;
+  font-size: 22px;
 
-.logo-container .git{
-   width: 100px;
-   height: 100px;
-   object-fit: cover;
-   position: absolute;
-   top: 52%;
-   left: 0%;
+  position: absolute;
+  right: 160px;
+  top: 64%;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
 
-.logo-container .nextjs{
-   width: 130px;
-   height: 130px;
-   object-fit: cover;
-   position: absolute;
-   top: 78%;
-   left: 8%;
+.social-link h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
 }
+
+.social-link .amp {
+  margin: 0 6px; /* 👈 spacing between GitHub & CV */
+}
+
+.social-anchor:hover {
+  color: #bebbbb;
+}
+
+
+.social-anchor {
+  color: inherit;
+  text-decoration: none;
+}
+
+
