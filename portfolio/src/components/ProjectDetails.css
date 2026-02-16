@@ -1,0 +1,52 @@
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 12rem;
+}
+
+.slider-window {
+  width: 55vw;
+  height: 60vh;
+  overflow: hidden;
+  border-radius: 17px;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.project-container {
+  width: 55vw;
+  height: 60vh;
+  background-color: rgba(62, 61, 61, 0.59);
+  border-radius: 17px;
+  flex-shrink: 0;
+}
+
+
+/* buttons */
+.slider-controls {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.slider-controls button {
+  padding: 0.6rem 1.8rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.slider-controls button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+
+/* desigining card internally */
+

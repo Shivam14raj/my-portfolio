@@ -1,5 +1,6 @@
 import React from 'react'
 import './Project.css'
+import ProjectDetails from './ProjectDetails'
 
 function Projects() {
   return (
@@ -7,7 +8,9 @@ function Projects() {
     <h1 className="logo">SR.</h1>
     <div className='project-title'>
       <h1>Projects</h1>
-    </div>
+    </div> 
+
+    <ProjectDetails/> 
     </>
     
   )

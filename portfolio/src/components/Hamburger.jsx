@@ -27,7 +27,7 @@ const Hamburger = () => {
             <Link to="/contact" onClick={() => setOpen(false)} >Contact</Link>
           </li> 
           <li>
-            <Link to="/project" onClick={() => setOpen(false)} >projects</Link>
+            <Link to="/project" onClick={() => setOpen(false)} >Projects</Link>
           </li>
         </ul>
       </div>

@@ -7,7 +7,7 @@ import reactimg from "../assets/react-logo.png"
 import git from "../assets/git-logo.png"
 import nextjs from "../assets/nextjs-logo.png"
 
-function Home() {
+function Home() {  
   return (
     <div>
       <div className="heading">
