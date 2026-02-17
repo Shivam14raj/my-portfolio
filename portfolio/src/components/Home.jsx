@@ -28,9 +28,7 @@ function Home() {
       <div className="arrow">
         <img src={arrow} alt="" />
       </div>
-      
 
-      
       <div className="social-link">
         <h6>
           <a

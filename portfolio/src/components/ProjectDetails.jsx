@@ -7,7 +7,7 @@ const ProjectDetails = () => {
 
   const next = () => {
     if (index < total - 1) setIndex(index + 1);
-  };
+  };   
 
   const prev = () => {
     if (index > 0) setIndex(index - 1);
