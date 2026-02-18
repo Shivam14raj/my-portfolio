@@ -10,7 +10,7 @@ import mongodb from "../assets/mongo-db-img.png"
 function About() {
   return (
     <div>
-      <div className="about-me">About Me</div>
+      <div className="about-me">About Me</div> 
       <h1 className="logo">SR.</h1>
       <div className="about-me-text">
         {/* I' m a <span>re-imagined </span>software developer who believes great software is built at the intersection of logic, design, and experience. */}

@@ -24,11 +24,12 @@ const Hamburger = () => {
             <Link to="/about" onClick={() => setOpen(false)} >About</Link>
           </li>
           <li>
-            <Link to="/contact" onClick={() => setOpen(false)} >Contact</Link>
-          </li> 
-          <li>
             <Link to="/project" onClick={() => setOpen(false)} >Projects</Link>
           </li>
+          <li>
+            <Link to="/contact" onClick={() => setOpen(false)} >Contact</Link>
+          </li> 
+          
         </ul>
       </div>
     </>
